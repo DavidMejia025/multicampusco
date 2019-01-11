@@ -1,0 +1,325 @@
+ .services-feature .services-icon {
+  width: 112px;
+  height: 112px;
+  display: table;
+  margin: 0 auto 30px auto;
+  background: #f0f5fd;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #85919d;
+  height: 100%;
+  position: relative;
+}
+/*------------------------------Navigation bars-------------------------------*/
+.navbar.navbar-inverse{
+  display:flex;
+  justify-content:space-between;
+  align-items: center; 
+  background-color: #2e3537;
+  margin-bottom: 0;
+  display: none;
+}
+.navbar.navbar-inverse ul{
+  display:flex;
+  flex-direction: row;;
+}
+.navbar li{
+  color: white;
+  margin: 5px;
+} 
+.navbar ul {
+
+}
+
+.navbar.navbar-default,
+.nav.navbar-nav li a{
+  margin: 0;
+  padding:0;
+}
+.nav.navbar-nav{
+  color: #44434c;
+  float: right;
+  display: inline-block;
+  margin-right: 20px
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav.navbar-nav li a{
+  margin-top: 20px;
+  color:#44434c;
+  text-align: center;
+}
+
+.nav.navbar-nav li a:hover{
+  background-color: #ffffff;
+  color:#44434c;
+  font-weight: bold;
+}
+
+.nav.navbar-nav li a.active {
+  background-color: #fed136;
+  color: black;
+}
+
+/*----------------------------------------Home------------------------------------------*/
+
+#HOME{
+  background-attachment: fixed;
+  background-color: transparent;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) ,  url('./images/cover2.jpeg') no-repeat center top;*/
+  background-size: cover;
+  background-color:#eeee;
+  color:#44434c;
+  height: 100%;
+  text-align: center;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  margin-bottom: 0px;
+  padding-bottom: 550px;
+
+}
+
+.home-central{
+  margin-top:35px;
+  margin-left: 210px;
+  display: flex;
+  position: relative;
+  top:30px;
+
+}
+
+.home-central.carousel-inner img{
+  height: 350px;
+  width:  400px;
+}
+
+.home-central1{
+  width:465px;
+  height: 350px;
+
+}
+.home-central2{
+  display:flex;
+  flex-wrap: wrap;
+  border-radius:60%;
+  margin-left:60px;
+  width: 400px;
+}
+
+.home-central2 img{
+  margin-top:40px;
+  margin-left:70px;
+  border-radius: 60%;
+}
+.home-central2 h1{
+  font-family: 'Oswald', sans-serif;
+  font-size:60px;
+  margin-left:40px;
+}
+
+.secondary_info{
+  margin-top:65px;
+  font-size: 16px
+}
+.secondary_info h2{
+  margin-left: 100px;
+  font-size: 20px
+}
+@media (min-width: 1281px) {
+   #HOME{
+    height:480px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+ #HOME{
+  height:700px;
+ }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+}
+@media (min-width: 481px) and (max-width: 767px) { 
+  
+}
+@media (min-width: 320px) and (max-width: 480px) {
+}
+
+#HOME .home-learn-more {
+  margin-top: 20px;
+  text-align: center;
+  font-style: oblique;
+
+}
+
+.carousel-inner img {
+  width: 500px;
+  height: 300px;
+}
+/*----------------------------------------About us------------------------------------------*/
+
+#about_us{
+  display:flex; 
+  flex-wrap: wrap;
+  margin:275px 0 275px 0;
+
+}
+.container_about_us {
+  display:flex;
+  flex-wrap:wrap;
+  margin-left:170px;
+}
+.nuestra_empresa{
+  margin: 0 20px 0 170px;
+  font-size: 17px;
+  width:300px;
+
+}
+
+.quienes_somos{
+  margin: 0 20px 0 20px;
+  font-size: 17px;
+  width:300px;
+
+}
+
+.nuestra_empresa p{
+  display:none;
+  font-style: oblique;
+}
+
+.quienes_somos p{
+  display:none;
+  font-style: oblique;
+}
+
+/*----------------------------------------SERVICES------------------------------------------*/
+#SERVICES {
+  background-size: cover;
+  background-color:#eeee;
+}
+#SERVICES .container{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 60px 0px 0 150px;
+}
+#SERVICES h1{
+  padding-top: 70px;
+  width:100%;
+    text-align: center;
+
+}
+#SERVICES .container .service0, .service1, .service2, .service3, .service4, .service5{
+  margin:10px 30px 20px 30px;
+  border: solid grey 2px;
+  background-color: #c2d6d6;
+  width: 250px;
+}
+#SERVICES .container .service0 p, .service1 p, .service2 p, .service3 p, .service4 p, .service5 p{
+  margin: 20px 10px 10px 10px;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 15px;
+  align: justify;
+  color: #004466;
+}
+#SERVICES .container .service0 img, .service1 img, .service2 img, .service3 img, .service4 img, .service5 img{
+   width: 245px;
+   height: 200px;
+}
+
+.top { 
+      padding:20px;
+    }
+    #container{
+      display:flex;
+      justify-content: space-around;
+      margin: 30px;
+      padding:10px;
+
+    }
+    #container > div{
+
+      padding:80px;
+    }
+    .center{
+      border-right:solid 3px ;
+    }
+    .contactos .list{
+      margin-top:50px;
+     color:#777777;
+     font-size:14px;
+    }
+
+    #contacto {
+      background-color: #dddddd;
+      background-size: cover;
+      background-attachment: fixed;
+      text-align: center;
+    }
+    #contacto h1{
+      text-align: center;
+
+    }
+
+    #contacto h2{
+
+      text-align: center;
+    }
+    #contacto p{
+    text-align: center;
+    font-size: 22px;
+    color: #85919d;
+  }
+  #contacto p a{
+    color:#888888;
+  }
+    form{
+      margin:auto;
+      width: 70%;
+      margin-top: 50px;
+      background-color: #dddddd;
+      
+    }
+    input {
+      display:flex;
+      padding:10px;
+      width: 300px;
+      background-color: #dddddd;
+      height: 40px;
+      color: #004466;
+      justify-content:center;
+      flex-direction:column;
+      flex-wrap:wrap;
+      border-radius: 7px
+
+    }   
+    #submit{
+      margin-left: 100px;
+      margin-top:50;
+      width:100px;
+      border-radius: 3px;
+      padding:10px;
+      padding-left:25px;
+      text-align: center;
+      color: #85919d; 
+      font-size:12px;
+      border-radius: 7px;
+    }
+
+    textarea.form-control {
+      margin:0px;
+    height: 100px;
+}
