@@ -178,21 +178,32 @@ body {
 .container_about_us {
   display:flex;
   flex-wrap:wrap;
-  margin-left:170px;
+  margin-left:100px;
 }
 .nuestra_empresa{
-  margin: 0 150px 0 50px;
+  margin: 0 0px 0 0px;
   font-size: 17px;
-  width:300px;
+  width: 500px;
 }
 
 .quienes_somos{
   margin: 0 20px 0 20px;
   font-size: 17px;
-  width:300px;
+  width:500px;
 
 }
 
+.nuestra_empresa h1{
+  text-align: justify;
+  width: 300px;
+  margin-left: 100px;
+}
+
+.quienes_somos h1{
+  text-align: justify;
+  width: 300px;
+  margin-left: 150px;
+}
 .nuestra_empresa p{
   display:none;
   font-style: oblique;
@@ -322,4 +333,8 @@ body {
     textarea.form-control {
       margin:0px;
     height: 100px;
+}
+
+.counter {
+  display:none;
 }
