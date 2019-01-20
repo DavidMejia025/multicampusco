@@ -173,8 +173,7 @@ body {
 #about_us{
   display:flex; 
   flex-wrap: wrap;
-  margin:275px 0 275px 0;
-
+  margin:200px 0 275px 0;
 }
 .container_about_us {
   display:flex;
@@ -182,10 +181,9 @@ body {
   margin-left:170px;
 }
 .nuestra_empresa{
-  margin: 0 20px 0 170px;
+  margin: 0 150px 0 50px;
   font-size: 17px;
   width:300px;
-
 }
 
 .quienes_somos{
@@ -198,11 +196,13 @@ body {
 .nuestra_empresa p{
   display:none;
   font-style: oblique;
+  text-align: justify;
 }
 
 .quienes_somos p{
   display:none;
   font-style: oblique;
+  text-align: justify;
 }
 
 /*----------------------------------------SERVICES------------------------------------------*/
