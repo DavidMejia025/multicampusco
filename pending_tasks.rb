@@ -14,3 +14,10 @@ done 7. visitors count.
 4. responsive
 5. Front end del nav bar
 )
+
+
+
+
+# visitas 15 Dia 9/2/2019
+# visitas 20 Dia 17/2/2019
+ 
