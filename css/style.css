@@ -7304,7 +7304,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #ffffff !important;
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
@@ -7321,7 +7321,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .8rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #fff;
+    color: #FF0A0A;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
