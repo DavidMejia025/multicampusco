@@ -7321,7 +7321,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .8rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #FF0A0A;
+    color: #000000;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -7396,7 +7396,7 @@ h1, h2, h3, h4, h5,
     color: #1a1888; }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: #000000 !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
